@@ -18,7 +18,7 @@
                 <form action="{{route('do_todoap')}}" method="POST">
                     @csrf
                     <label>Title</label>
-         <input type="text" name="tile" class="form-control" >
+         <input type="text" name="title" class="form-control" >
 
          <label>description</label>
          <input type="text" name="description" class="form-control" >

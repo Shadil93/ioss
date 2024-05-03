@@ -18,7 +18,7 @@
                 <form action="{{route('update',$data->id)}}" method="POST">
                     @csrf
                     <label>Title</label>
-         <input type="text" name="tile" class="form-control" value="{{$data->tile}}" >
+         <input type="text" name="title" class="form-control" value="{{$data->title}}" >
 
          <label>description</label>
          <input type="text" name="description" class="form-control" value="{{$data->description}}">

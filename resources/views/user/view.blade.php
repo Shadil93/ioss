@@ -49,7 +49,7 @@
   <a href="{{route('title')}}" class="btn btn-success">title</a>
                     <a href="{{route('created_at')}}" class="btn btn-danger">created at</a>
   
-  <table class="table table-danger table-bordered">
+  <table class="table table-danger table-bordered w-75">
                 <tr>
                 
                 <th>#</th>
@@ -73,7 +73,10 @@
                 
                 @endforeach
             </table>
+            <div class="gg d-flex justify-content-center">
             {{ $data->links() }}
+            </div>
+           
 
           
 
